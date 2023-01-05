@@ -10,8 +10,7 @@ obj3 = {
   age: true,
 }
 
-function names(usr: usr_type) {
-  usr.name = 'sdf'
-  usr.age = 3
+function names(usr: str_num) {
+  console.log(usr)
 }
-names()
+names('df')

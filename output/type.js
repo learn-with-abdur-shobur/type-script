@@ -5,7 +5,6 @@ obj3 = {
     age: true,
 };
 function names(usr) {
-    usr.name = 'sdf';
-    usr.age = 3;
+    console.log(usr);
 }
-names();
+names('df');
