@@ -13,3 +13,6 @@ rootDir have .ts
 outDir have .js and connect html
 now => tsc
 or watch mode => tsc -w
+
+Need to understand
+1.w3 school er type:unknown example

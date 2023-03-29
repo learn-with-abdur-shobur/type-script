@@ -19,4 +19,13 @@ function getUser(): User {
 		id: 2,
 	};
 }
-console.log(getUser());
+const newUser = (user: User) => {
+	return {
+		name: user.name,
+		id: user.id,
+	};
+};
+
+console.log(newUser({ name: 'Change Name', id: 3 }));
+
+type myBool = true | false;
