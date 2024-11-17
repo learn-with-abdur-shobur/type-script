@@ -1,6 +1,7 @@
 ## Abstract Class
 
 - Abstract Class is a main class, When some one extends Abstract Class, This class need must be implement all abstract classes property or elements
+- Abstract Class is a shape of Class
 
 **Write Abstract Class**
 
