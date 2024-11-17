@@ -8,5 +8,3 @@ const valueAdd = {
     1: 'sdf',
     2: 'sdf',
 };
-const NewInterSection = { color: 'sdf', radius: 234 };
-console.log(NewInterSection);

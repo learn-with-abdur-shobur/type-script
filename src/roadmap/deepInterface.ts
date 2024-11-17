@@ -25,6 +25,3 @@ interface Circle {
 }
 
 type ColorfulCircle = Colorful & Circle;
-
-const NewInterSection: ColorfulCircle = { color: 'sdf', radius: 234 };
-console.log(NewInterSection);

@@ -1,15 +1,18 @@
 "use strict";
-class Shape {
-}
-class Circle extends Shape {
-    calculateArea() {
-        return Math.PI * 5 * 5;
+class RectangleArea {
+    constructor(width, height) {
+        this.width = width;
+        this.height = height;
+    }
+    getArea() {
+        return this.width * this.height;
     }
 }
-class Rectangle extends Shape {
-    calculateArea() {
-        return 5 * 5;
+class RectangularAreaCalculate {
+    static getArea(rectangle) {
+        return rectangle.height * rectangle.height;
     }
 }
-const circle = new Circle();
-console.log(circle.calculateArea());
+const rectangle1 = new RectangleArea(5, 5);
+const area = rectangle1.getArea();
+console.log(area);

@@ -1,18 +1,23 @@
-abstract class Shape {
-	abstract calculateArea(): number;
-}
+class RectangleArea {
+	width: number;
+	height: number;
 
-class Circle extends Shape {
-	calculateArea(): number {
-		return Math.PI * 5 * 5;
+	constructor(width: number, height: number) {
+		this.width = width;
+		this.height = height;
+	}
+
+	getArea(): number {
+		return this.width * this.height;
 	}
 }
 
-class Rectangle extends Shape {
-	calculateArea(): number {
-		return 5 * 5;
+class RectangularAreaCalculate {
+	static getArea(rectangle: RectangleArea): number {
+		return rectangle.height * rectangle.height;
 	}
 }
 
-const circle = new Circle();
-console.log(circle.calculateArea());
+const rectangle1 = new RectangleArea(5, 5);
+const area = rectangle1.getArea();
+console.log(area);
